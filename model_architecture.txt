@@ -1,0 +1,20 @@
+Input Layer: 28x28x1
+
+Conv2D: 32 Filters, 3x3 Kernel, ReLU
+MaxPooling2D: 2x2
+
+Conv2D: 64 Filters, 3x3 Kernel, ReLU
+MaxPooling2D: 2x2
+
+Conv2D: 128 Filters, 3x3 Kernel, ReLU
+MaxPooling2D: 2x2
+
+Flatten Layer
+
+Dense Layer: 256 Neurons, ReLU
+Dropout: 0.5
+
+Dense Layer: 128 Neurons, ReLU
+Dropout: 0.3
+
+Output Layer: 10 Neurons, Softmax
