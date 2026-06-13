@@ -1,0 +1,17 @@
+Training Dataset: 60,000 Images
+Testing Dataset: 10,000 Images
+
+Optimizer: Adam
+Loss Function: Sparse Categorical Crossentropy
+Epochs: 5
+
+Evaluation Metrics:
+- Accuracy
+- Loss
+- Confusion Matrix
+- Classification Report
+
+Observations:
+- CNN successfully learned digit patterns.
+- High prediction accuracy achieved.
+- Misclassifications were minimal.
